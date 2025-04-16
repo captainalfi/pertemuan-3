@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Katalog Produk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .katalog {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .produk {
+            width: 200px;
+        }
+
+        .produk img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Katalog Produk</h1>
+
+    <div class="katalog">
+        <div class="produk">
+            <img src="Image/produk1.jpg" alt="Produk 1">
+            <div class="caption">Produk Keren 1</div>
+        </div>
+
+        <div class="produk">
+            <img src="Image/produk2.jpg" alt="Produk 2">
+            <div class="caption">Produk Keren 2</div>
+        </div>
+
+        <div class="produk">
+            <img src="Image/produk3.jpg" alt="Produk 3">
+            <div class="caption">Produk Keren 3</div>
+        </div>
+    </div>
+
+</body>
+</html>
